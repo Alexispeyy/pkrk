@@ -1,0 +1,267 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* pkrk logo */
+/* h1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 20px;
+    font-size: 60px;
+} */
+
+ /* header */
+
+
+/* header nav ul li {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+
+header nav ul li a {
+    margin-top: 0px;
+} */
+
+
+/* LOGO WSP */
+
+/* header img {
+    width: 60px;
+    position: sticky;
+    right: 20px;
+    position: fixed;
+    top: 10px;
+}  */
+
+
+/* Imagenes Slider */
+
+/* .fotos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.foto1 {
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+
+} */
+
+
+
+
+
+/* main ss23 */
+
+.ss {
+    padding-top: 70px;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+/* catalogo */
+
+.container {
+
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+/* quienes somos */
+
+.quienessomos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.qs {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 1000px;
+    height: 139px;
+
+}
+
+
+iframe {
+    margin-bottom: 0px;
+    width: 1000px;
+    height: 400px;
+}
+
+video {
+
+    height: 540px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+/* contacto */
+
+.contacto {
+    padding-top: 50px;
+
+}
+
+.form-group {
+    margin: 10px;
+
+}
+
+
+
+/* 
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contacto h2 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+
+.contacto form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+textarea {
+    width: 1000px;
+
+}
+ */
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: greenyellow;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 600px 600px 600px; */
+    /* grid-template-rows: 200px 75px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center
+}
+
+div p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+
+
+/* ICONOS FOOTER */
+
+
+.iconosfooter {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.logoig a img {
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+}
+
+
+.logotiktok a img {
+
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+
+.logowp a img {
+    margin-left: 15px;
+    margin-top: 2px;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+
+
+/*  MEDIA QUERIES*/
+
+@media screen and (min-width:320px) and (max-width: 768px)
+
+{
+
+
+    .productos {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 15px;
+        color: aqua;
+
+    }
+
+}
+
+
+
+
+/* MEDIA QUERIES  SS'23 */
+
+
+@media screen and (min-width: 460px) and (max-width: 720px)
+
+{
+   
+   
+    .ss23 img {
+        margin-left: 10%;
+        padding-bottom: 2%;
+        width: 80%;
+        display: }
+    
+
+}
