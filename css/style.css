@@ -225,7 +225,13 @@ footer-col-1, footer-col-2, footer-col-3, footer-col-4  {
     margin-bottom: 20px;
 }
  
+
+.row-strong {
+    display: flex;
+    flex-direction: row; 
+}
  
+
  ul {
     list-style: none;
  }
@@ -361,35 +367,41 @@ div p {
 
 /* MEDIA QUERIES QUIENES SOMOS */
 
-@media screen and (min-width: 1019px) and (max-width: 1337px)
+@media screen and (min-width: 390px) and (max-width: 480px)
 
 {
     .quienessomos {
         display: grid;
         flex-direction: row;
-        margin-bottom: 60px;
+        margin-bottom: 10%;
         margin-top: 100px;
     }
     
     .qs h2 {
-        display: grid;
+       font-size: 10px;
+       text-align: center;
     }
 
-    .qs1 {
-        display: grid;
+   
 
-    }
-
-    iframe {
-        width: 400px;
-    }
-    
-    video {
-        margin-top: 0px;
+    .tym iframe {
+        margin-bottom: 0px;
+        width: 200px;
         height: 400px;
+    }
+
+
+    
+   .tym video {
+        margin-top: 0px;
+        height: 200px;
         margin-left: 380px;
     }
 
+    .tym {
+        display: flex;
+        flex-direction: row;
+    }
 
 
 
